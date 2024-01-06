@@ -36,7 +36,7 @@ For the real data, you will need to begin by downloading the CIFAR10N dataset fr
 
 The first step is to train the ResNet18 models for each noise setting. This is done by running
 ```
-python3 main.py train_resnets_cifar10n.py  
+python3 train_resnets_cifar10n.py  
 ```
 We recommend using a GPU for this, although the device is just set to ```auto``` in pytorch lightning.
 This script will create a directory structured as 
