@@ -1,0 +1,23 @@
+seed_base: 123
+output_dir: results
+n_reps: 25
+
+models_dir: 'models'
+data_dir: 'data/CIFAR10N'
+corruption_dir: 'data/CIFAR10N/estimates'
+
+cp:
+  alpha: [0.1]
+
+corruption:
+  noise_type: ['clean_label', 'worse_label', 'aggre_label', 'random_label1', 'random_label2', 'random_label3']
+
+dataset:
+  dataset_name: 'CIFAR10N'
+  params:
+    n_cal: [10000]
+    n_test: [5000]
+    logits_dir: ['models']
+
+model:
+  model_name: ['logits'] # Doesn't get used for real data. Just for logging.

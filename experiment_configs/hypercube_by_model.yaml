@@ -1,0 +1,22 @@
+seed_base: 123
+output_dir: results
+n_reps: 25
+
+cp:
+  alpha: [0.1]
+
+corruption:
+  eps: [0.2]
+  noise_type: [random_flip]
+
+dataset:
+  dataset_name: 'hypercube'
+  params:
+    p: [10]
+    K: [5]
+    n_train: [10000]
+    n_cal: [10000]
+    n_test: [10000]
+
+model:
+  model_name: ['log_reg', 'rf', 'mlp', 'gbt']

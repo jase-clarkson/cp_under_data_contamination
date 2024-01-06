@@ -1,0 +1,15 @@
+numpy~=1.19.5
+torch~=1.13.1
+pillow~=9.2.0
+pandas~=1.1.5
+sklearn~=0.0
+scikit-learn~=1.1.2
+torchvision~=0.12.0
+scipy~=1.7.3
+tqdm~=4.64.0
+torchmetrics~=0.6.0
+statsmodels~=0.13.2
+yaml~=0.2.5
+pyyaml~=5.4.1
+easydict~=1.9
+pytorch_lightning~=2.0.9
