@@ -17,8 +17,7 @@ def sample_noisy_labels(y: np.array,
             # Had to add this as sometimes had fp error so didn't quite sum to 1.
             probs = probs / np.sum(probs)
             y_tilde[idx] = np.random.choice(K, len(idx), p=probs)
-
-    assert (y_tilde > 0).all()
+    assert (y_tilde >= 0).all()
     return y_tilde
 
 
