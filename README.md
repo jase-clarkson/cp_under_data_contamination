@@ -2,6 +2,8 @@
 
 This repository contains code to re-produce all the results, plots and tables presented within the paper.
 
+This code was developed using Python 3.9.12. Please start by installing the required packages using the ```requirements.txt``` file.  
+
 # Classification
 ## Synthetic Data
 To reproduce the results with the synthetic data, use the command
