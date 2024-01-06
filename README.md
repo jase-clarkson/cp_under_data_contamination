@@ -7,7 +7,7 @@ This repository contains code to re-produce all the results, plots and tables pr
 To reproduce the results with the synthetic data, use the command
 
 ```
-python3 main.py --c {config_file}
+python3 main.py -c {config_file}
 ```
 The names of the config files can be found in the ```experiment_configs/``` directory.
 
