@@ -1,4 +1,4 @@
-# Code repository for paper "Split Conformal Prediction under Data Contamination"
+# Code repository for "Split Conformal Prediction under Data Contamination"
 
 This repository contains code to re-produce all the results, plots and tables presented within the paper.
 
