@@ -4,8 +4,8 @@ This repository contains code to re-produce all the results, plots and tables pr
 
 This code was developed using Python 3.9.12. Please start by installing the required packages using the ```requirements.txt``` file.  
 
-# Classification
-## Synthetic Data
+## Classification
+### Synthetic Data
 To reproduce the results with the synthetic data, use the command
 
 ```
@@ -30,7 +30,7 @@ Then use the notebook ```logistic_by_eps.ipynb``` to generate the plot.
 For both the table and the plots, you will need to copy and paste the name of your run into the notebook, which can be found in the 
 ```results/``` directory. 
 
-## Real Data
+### Real Data
 For the real data, you will need to begin by downloading the CIFAR10N dataset from http://noisylabels.com/. Place the files 
 ```CIFAR-10_human.npy``` and ```CIFAR10_human.pt``` into the ```data/CIFAR10N``` folder.
 
