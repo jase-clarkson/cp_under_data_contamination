@@ -52,6 +52,7 @@ After running this, use the command
 ```
 python3 main.py -c cifar10n.yaml
 ```
+The table can then be generated using the ```cifar100n_table.ipynb``` notebook.
 
 ## Regression
 Finally, the regression plot can be re-created using the ```regression_plot.ipynb``` notebook.
